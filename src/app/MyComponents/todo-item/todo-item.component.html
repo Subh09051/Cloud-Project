@@ -1,0 +1,11 @@
+<div class="my-3">
+    <div class="row align-items-center">
+        <div class="col-md-2">
+            <h5>{{ todo.title }}</h5>
+            <p>{{ todo.desc }}</p>
+        </div>
+        <div class="col-md-1 text-right">
+            <button class="btn btn-danger ml-2" (click)="onClick(todo)">Delete</button>
+        </div>
+    </div>
+</div>
